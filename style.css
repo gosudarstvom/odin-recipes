@@ -1,62 +1,72 @@
-body {
+body, ul, ol {
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
-    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .index {
-    background-color: rgb(245, 164, 164);
-    border: 5px solid;
-    border-color: aliceblue;
-    padding: 50px;
-    margin-left: 200px;
-    margin-top: 170px;
-    max-width:350px;
-}
-
-.odin-recipes {
-    color: rgb(255, 255, 255);
-    padding-left: 15px;
-    font-size: 50px;
-}
-
-.ul-main {
-    color: rgb(255, 255, 255);
-}
-
-.a-main {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.b-main {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    text-shadow: rgb(255, 51, 0) 1px 0 10px;
-    border: solid 5px;
-    border-radius: 10px;
-    padding: 5px 395px;
     text-align: center;
-    font-weight: 700;
-    background-color: wheat;
+ 
+    width: 700px;
+    margin: 20px auto;
+    border: solid 3px;
+    border-color: rgb(207, 56, 56);
+    background-color: rgb(255, 209, 83);
+    text-shadow: rgb(243, 9, 9) 1px 0px 10px;
+}
+
+.list a,
+.container,
+.button {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.list ul, li {
+    display: inline-block;
+    padding: 15px;
+    list-style-type: none;
+}
+
+.odin {
+    font-size: 50px;
+    text-align: center;
+}
+
+.button {
+    border: solid 3px;
+    border-color: rgb(0, 0, 0);
+    display: block;
+    background-color: rgb(255, 123, 83);
+    margin: 20px 0 10px 0px;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
 }
 
 .container {
-    margin:0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;;
-    padding: 25px 20px;
-    max-width: 800px;
-    justify-content: center;
-    background-color: rgb(243, 243, 237);
-    border: solid 5px;
-    border-radius: 15px;
+    box-sizing: border-box;
+    border: solid 3px;
+    border-color: rgb(207, 56, 56);
+    width: 800px;
+    margin: 20px auto;
+    padding: 35px;
+    background-color: rgb(255, 209, 83);
 }
-img {
-    width: 835px;
-    height: auto;
-    border: solid 5px;
-} 
 
-.text {
+.container h1, h2, h3 {
     text-align: center;
 }
+
+.list ul, ol, li {
+   text-decoration: none;
+}
+
+img {
+    border: solid 3px;
+    border-color: rgb(207, 56, 56);
+    width: 100%
+
+}
+
